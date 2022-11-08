@@ -1,0 +1,14 @@
+info:
+  title: Sclad
+  description: Sclad API
+  version: 1.0.0
+components:
+  schemas:
+  paths:
+    '/api/v1/add':
+      post:
+        summary: Добавление вещи
+        parameters:
+          - in: header
+            name: Sclad-UserId
+            
